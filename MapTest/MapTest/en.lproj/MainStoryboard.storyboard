@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Map Test View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="MapTestViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dt2-Rm-vBb">
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="Y9b-WT-WrI"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dt2-Rm-vBb" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="7pr-7z-3Rt"/>
+                            <constraint firstItem="Dt2-Rm-vBb" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="T9x-rz-qda"/>
+                            <constraint firstItem="Dt2-Rm-vBb" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="axg-lB-IX7"/>
+                            <constraint firstItem="Dt2-Rm-vBb" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="sKA-6e-lJM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myMapView" destination="Dt2-Rm-vBb" id="Egt-WC-V4l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

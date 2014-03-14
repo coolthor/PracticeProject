@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Test First View Controller - First-->
+        <scene sceneID="11">
+            <objects>
+                <viewController title="First" id="2" customClass="TabTestFirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="pinpin_kick.png" translatesAutoresizingMaskIntoConstraints="NO" id="wWF-8o-zYE"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wWF-8o-zYE" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="JXl-W9-oMY"/>
+                            <constraint firstItem="wWF-8o-zYE" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="KBE-Ur-slg"/>
+                            <constraint firstItem="wWF-8o-zYE" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="P03-2J-Mzf"/>
+                            <constraint firstItem="wWF-8o-zYE" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="jK3-AJ-rem"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="FlyKick" image="28-star.png" id="7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="-138"/>
+        </scene>
+        <!--Tab Test Second View Controller - Second-->
+        <scene sceneID="13">
+            <objects>
+                <viewController title="Second" id="3" customClass="TabTestSecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="17">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" image="pinpin_sleep.png" translatesAutoresizingMaskIntoConstraints="NO" id="2D6-ii-BsC"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2D6-ii-BsC" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="MKr-js-c7r"/>
+                            <constraint firstItem="2D6-ii-BsC" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="Wg2-yf-d0w"/>
+                            <constraint firstItem="2D6-ii-BsC" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="gQL-q9-uK9"/>
+                            <constraint firstItem="2D6-ii-BsC" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="sI9-Cg-EwS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sleep" image="29-heart.png" id="6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661" y="517"/>
+        </scene>
+        <!--Lazy View Controller - Lazy-->
+        <scene sceneID="aSb-g2-Bfc">
+            <objects>
+                <viewController id="x9T-eH-fGn" customClass="LazyViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qm4-cQ-xgi">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="hime.png" translatesAutoresizingMaskIntoConstraints="NO" id="UIn-oI-XEU"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UIn-oI-XEU" firstAttribute="top" secondItem="qm4-cQ-xgi" secondAttribute="top" type="default" id="30k-75-NaS"/>
+                            <constraint firstItem="UIn-oI-XEU" firstAttribute="bottom" secondItem="qm4-cQ-xgi" secondAttribute="bottom" type="default" id="51d-p6-EDS"/>
+                            <constraint firstItem="UIn-oI-XEU" firstAttribute="leading" secondItem="qm4-cQ-xgi" secondAttribute="leading" type="default" id="8Vg-nF-hNl"/>
+                            <constraint firstItem="UIn-oI-XEU" firstAttribute="trailing" secondItem="qm4-cQ-xgi" secondAttribute="trailing" type="default" id="DHI-SI-syV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lazy" image="30-key.png" id="tYL-Tk-R08"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8l-QL-mvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="1280"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.4374617998" green="0.54911777930000005" blue="0.91180294750000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
+                        <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
+                        <segue destination="x9T-eH-fGn" kind="relationship" relationship="viewControllers" id="SSQ-kZ-Psk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-344" y="478"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="28-star.png" width="26" height="26"/>
+        <image name="29-heart.png" width="24" height="21"/>
+        <image name="30-key.png" width="12" height="26"/>
+        <image name="hime.png" width="326" height="245"/>
+        <image name="pinpin_kick.png" width="245" height="326"/>
+        <image name="pinpin_sleep.png" width="326" height="245"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

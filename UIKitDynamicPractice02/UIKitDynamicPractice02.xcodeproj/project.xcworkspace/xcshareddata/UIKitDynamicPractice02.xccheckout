@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A30B29A-4D00-49E8-94A6-1F7D8C1235F0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIKitDynamicPractice02</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71D43E71-4BCC-410A-AC2D-F33CC6949503</key>
+		<string>https://github.com/coolthor/PracticeProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIKitDynamicPractice02/UIKitDynamicPractice02.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71D43E71-4BCC-410A-AC2D-F33CC6949503</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/coolthor/PracticeProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>71D43E71-4BCC-410A-AC2D-F33CC6949503</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71D43E71-4BCC-410A-AC2D-F33CC6949503</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PracticeProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

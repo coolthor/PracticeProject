@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C1928B177D35D50097CE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C1928A177D35D50097CE73 /* UIKit.framework */; };
+		33C1928D177D35D50097CE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C1928C177D35D50097CE73 /* Foundation.framework */; };
+		33C1928F177D35D50097CE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C1928E177D35D50097CE73 /* CoreGraphics.framework */; };
+		33C19295177D35D50097CE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33C19293177D35D50097CE73 /* InfoPlist.strings */; };
+		33C19297177D35D50097CE73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C19296177D35D50097CE73 /* main.m */; };
+		33C1929B177D35D50097CE73 /* FBLoginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C1929A177D35D50097CE73 /* FBLoginAppDelegate.m */; };
+		33C1929D177D35D50097CE73 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C1929C177D35D50097CE73 /* Default.png */; };
+		33C1929F177D35D50097CE73 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C1929E177D35D50097CE73 /* Default@2x.png */; };
+		33C192A1177D35D50097CE73 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C192A0177D35D50097CE73 /* Default-568h@2x.png */; };
+		33C192A4177D35D50097CE73 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C192A2177D35D50097CE73 /* MainStoryboard_iPhone.storyboard */; };
+		33C192A7177D35D50097CE73 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C192A5177D35D50097CE73 /* MainStoryboard_iPad.storyboard */; };
+		33C192AA177D35D50097CE73 /* FBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C192A9177D35D50097CE73 /* FBLoginViewController.m */; };
+		33C192B1177D35E50097CE73 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C192B0177D35E50097CE73 /* Accounts.framework */; };
+		33C192B3177D35EA0097CE73 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C192B2177D35EA0097CE73 /* AdSupport.framework */; };
+		33C192B5177D35F20097CE73 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C192B4177D35F20097CE73 /* Social.framework */; };
+		33C192B7177D35F90097CE73 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C192B6177D35F90097CE73 /* Security.framework */; };
+		33C192B9177D36120097CE73 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C192B8177D36120097CE73 /* FacebookSDK.framework */; };
+		33C192BC177D36300097CE73 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33C192BA177D36300097CE73 /* FacebookSDKResources.bundle */; };
+		33C192BD177D36300097CE73 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33C192BB177D36300097CE73 /* FBUserSettingsViewResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33C19287177D35D50097CE73 /* FBLoginSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLoginSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C1928A177D35D50097CE73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33C1928C177D35D50097CE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33C1928E177D35D50097CE73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33C19292177D35D50097CE73 /* FBLoginSession-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBLoginSession-Info.plist"; sourceTree = "<group>"; };
+		33C19294177D35D50097CE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33C19296177D35D50097CE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33C19298177D35D50097CE73 /* FBLoginSession-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBLoginSession-Prefix.pch"; sourceTree = "<group>"; };
+		33C19299177D35D50097CE73 /* FBLoginAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBLoginAppDelegate.h; sourceTree = "<group>"; };
+		33C1929A177D35D50097CE73 /* FBLoginAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLoginAppDelegate.m; sourceTree = "<group>"; };
+		33C1929C177D35D50097CE73 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		33C1929E177D35D50097CE73 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		33C192A0177D35D50097CE73 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		33C192A3177D35D50097CE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		33C192A6177D35D50097CE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		33C192A8177D35D50097CE73 /* FBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBLoginViewController.h; sourceTree = "<group>"; };
+		33C192A9177D35D50097CE73 /* FBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLoginViewController.m; sourceTree = "<group>"; };
+		33C192B0177D35E50097CE73 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		33C192B2177D35EA0097CE73 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		33C192B4177D35F20097CE73 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		33C192B6177D35F90097CE73 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		33C192B8177D36120097CE73 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		33C192BA177D36300097CE73 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		33C192BB177D36300097CE73 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33C19284177D35D50097CE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C192B9177D36120097CE73 /* FacebookSDK.framework in Frameworks */,
+				33C192B7177D35F90097CE73 /* Security.framework in Frameworks */,
+				33C192B5177D35F20097CE73 /* Social.framework in Frameworks */,
+				33C192B3177D35EA0097CE73 /* AdSupport.framework in Frameworks */,
+				33C192B1177D35E50097CE73 /* Accounts.framework in Frameworks */,
+				33C1928B177D35D50097CE73 /* UIKit.framework in Frameworks */,
+				33C1928D177D35D50097CE73 /* Foundation.framework in Frameworks */,
+				33C1928F177D35D50097CE73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33C1927E177D35D50097CE73 = {
+			isa = PBXGroup;
+			children = (
+				33C19290177D35D50097CE73 /* FBLoginSession */,
+				33C19289177D35D50097CE73 /* Frameworks */,
+				33C19288177D35D50097CE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33C19288177D35D50097CE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C19287177D35D50097CE73 /* FBLoginSession.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33C19289177D35D50097CE73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33C192BA177D36300097CE73 /* FacebookSDKResources.bundle */,
+				33C192BB177D36300097CE73 /* FBUserSettingsViewResources.bundle */,
+				33C192B8177D36120097CE73 /* FacebookSDK.framework */,
+				33C192B6177D35F90097CE73 /* Security.framework */,
+				33C192B4177D35F20097CE73 /* Social.framework */,
+				33C192B2177D35EA0097CE73 /* AdSupport.framework */,
+				33C192B0177D35E50097CE73 /* Accounts.framework */,
+				33C1928A177D35D50097CE73 /* UIKit.framework */,
+				33C1928C177D35D50097CE73 /* Foundation.framework */,
+				33C1928E177D35D50097CE73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33C19290177D35D50097CE73 /* FBLoginSession */ = {
+			isa = PBXGroup;
+			children = (
+				33C19299177D35D50097CE73 /* FBLoginAppDelegate.h */,
+				33C1929A177D35D50097CE73 /* FBLoginAppDelegate.m */,
+				33C192A2177D35D50097CE73 /* MainStoryboard_iPhone.storyboard */,
+				33C192A5177D35D50097CE73 /* MainStoryboard_iPad.storyboard */,
+				33C192A8177D35D50097CE73 /* FBLoginViewController.h */,
+				33C192A9177D35D50097CE73 /* FBLoginViewController.m */,
+				33C19291177D35D50097CE73 /* Supporting Files */,
+			);
+			path = FBLoginSession;
+			sourceTree = "<group>";
+		};
+		33C19291177D35D50097CE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33C19292177D35D50097CE73 /* FBLoginSession-Info.plist */,
+				33C19293177D35D50097CE73 /* InfoPlist.strings */,
+				33C19296177D35D50097CE73 /* main.m */,
+				33C19298177D35D50097CE73 /* FBLoginSession-Prefix.pch */,
+				33C1929C177D35D50097CE73 /* Default.png */,
+				33C1929E177D35D50097CE73 /* Default@2x.png */,
+				33C192A0177D35D50097CE73 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33C19286177D35D50097CE73 /* FBLoginSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C192AD177D35D50097CE73 /* Build configuration list for PBXNativeTarget "FBLoginSession" */;
+			buildPhases = (
+				33C19283177D35D50097CE73 /* Sources */,
+				33C19284177D35D50097CE73 /* Frameworks */,
+				33C19285177D35D50097CE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBLoginSession;
+			productName = FBLoginSession;
+			productReference = 33C19287177D35D50097CE73 /* FBLoginSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33C1927F177D35D50097CE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FBLogin;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thor Lin";
+			};
+			buildConfigurationList = 33C19282177D35D50097CE73 /* Build configuration list for PBXProject "FBLoginSession" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33C1927E177D35D50097CE73;
+			productRefGroup = 33C19288177D35D50097CE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33C19286177D35D50097CE73 /* FBLoginSession */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33C19285177D35D50097CE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C19295177D35D50097CE73 /* InfoPlist.strings in Resources */,
+				33C1929D177D35D50097CE73 /* Default.png in Resources */,
+				33C1929F177D35D50097CE73 /* Default@2x.png in Resources */,
+				33C192A1177D35D50097CE73 /* Default-568h@2x.png in Resources */,
+				33C192A4177D35D50097CE73 /* MainStoryboard_iPhone.storyboard in Resources */,
+				33C192A7177D35D50097CE73 /* MainStoryboard_iPad.storyboard in Resources */,
+				33C192BC177D36300097CE73 /* FacebookSDKResources.bundle in Resources */,
+				33C192BD177D36300097CE73 /* FBUserSettingsViewResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33C19283177D35D50097CE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C19297177D35D50097CE73 /* main.m in Sources */,
+				33C1929B177D35D50097CE73 /* FBLoginAppDelegate.m in Sources */,
+				33C192AA177D35D50097CE73 /* FBLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33C19293177D35D50097CE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C19294177D35D50097CE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33C192A2177D35D50097CE73 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C192A3177D35D50097CE73 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		33C192A5177D35D50097CE73 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C192A6177D35D50097CE73 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33C192AB177D35D50097CE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33C192AC177D35D50097CE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33C192AE177D35D50097CE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBLoginSession/FBLoginSession-Prefix.pch";
+				INFOPLIST_FILE = "FBLoginSession/FBLoginSession-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33C192AF177D35D50097CE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBLoginSession/FBLoginSession-Prefix.pch";
+				INFOPLIST_FILE = "FBLoginSession/FBLoginSession-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33C19282177D35D50097CE73 /* Build configuration list for PBXProject "FBLoginSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C192AB177D35D50097CE73 /* Debug */,
+				33C192AC177D35D50097CE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C192AD177D35D50097CE73 /* Build configuration list for PBXNativeTarget "FBLoginSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C192AE177D35D50097CE73 /* Debug */,
+				33C192AF177D35D50097CE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33C1927F177D35D50097CE73 /* Project object */;
+}

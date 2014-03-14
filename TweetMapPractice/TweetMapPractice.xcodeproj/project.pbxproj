@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3336A61B176EFA8500952D90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3336A61A176EFA8500952D90 /* UIKit.framework */; };
+		3336A61D176EFA8500952D90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3336A61C176EFA8500952D90 /* Foundation.framework */; };
+		3336A61F176EFA8500952D90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3336A61E176EFA8500952D90 /* CoreGraphics.framework */; };
+		3336A625176EFA8500952D90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3336A623176EFA8500952D90 /* InfoPlist.strings */; };
+		3336A627176EFA8500952D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3336A626176EFA8500952D90 /* main.m */; };
+		3336A62B176EFA8500952D90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3336A62A176EFA8500952D90 /* AppDelegate.m */; };
+		3336A62D176EFA8500952D90 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3336A62C176EFA8500952D90 /* Default.png */; };
+		3336A62F176EFA8500952D90 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3336A62E176EFA8500952D90 /* Default@2x.png */; };
+		3336A631176EFA8500952D90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3336A630176EFA8500952D90 /* Default-568h@2x.png */; };
+		3336A634176EFA8500952D90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3336A633176EFA8500952D90 /* ViewController.m */; };
+		3336A637176EFA8500952D90 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3336A635176EFA8500952D90 /* ViewController.xib */; };
+		3336A63E176EFAAA00952D90 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3336A63D176EFAAA00952D90 /* MapKit.framework */; };
+		3336A640176EFAB500952D90 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3336A63F176EFAB500952D90 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3336A617176EFA8500952D90 /* TweetMapPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetMapPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3336A61A176EFA8500952D90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3336A61C176EFA8500952D90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3336A61E176EFA8500952D90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3336A622176EFA8500952D90 /* TweetMapPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetMapPractice-Info.plist"; sourceTree = "<group>"; };
+		3336A624176EFA8500952D90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3336A626176EFA8500952D90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3336A628176EFA8500952D90 /* TweetMapPractice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetMapPractice-Prefix.pch"; sourceTree = "<group>"; };
+		3336A629176EFA8500952D90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3336A62A176EFA8500952D90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3336A62C176EFA8500952D90 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3336A62E176EFA8500952D90 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3336A630176EFA8500952D90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3336A632176EFA8500952D90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3336A633176EFA8500952D90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3336A636176EFA8500952D90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3336A63D176EFAAA00952D90 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3336A63F176EFAB500952D90 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3336A614176EFA8500952D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3336A640176EFAB500952D90 /* CoreLocation.framework in Frameworks */,
+				3336A63E176EFAAA00952D90 /* MapKit.framework in Frameworks */,
+				3336A61B176EFA8500952D90 /* UIKit.framework in Frameworks */,
+				3336A61D176EFA8500952D90 /* Foundation.framework in Frameworks */,
+				3336A61F176EFA8500952D90 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3336A60E176EFA8500952D90 = {
+			isa = PBXGroup;
+			children = (
+				3336A620176EFA8500952D90 /* TweetMapPractice */,
+				3336A619176EFA8500952D90 /* Frameworks */,
+				3336A618176EFA8500952D90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3336A618176EFA8500952D90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3336A617176EFA8500952D90 /* TweetMapPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3336A619176EFA8500952D90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3336A63F176EFAB500952D90 /* CoreLocation.framework */,
+				3336A63D176EFAAA00952D90 /* MapKit.framework */,
+				3336A61A176EFA8500952D90 /* UIKit.framework */,
+				3336A61C176EFA8500952D90 /* Foundation.framework */,
+				3336A61E176EFA8500952D90 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3336A620176EFA8500952D90 /* TweetMapPractice */ = {
+			isa = PBXGroup;
+			children = (
+				3336A629176EFA8500952D90 /* AppDelegate.h */,
+				3336A62A176EFA8500952D90 /* AppDelegate.m */,
+				3336A632176EFA8500952D90 /* ViewController.h */,
+				3336A633176EFA8500952D90 /* ViewController.m */,
+				3336A635176EFA8500952D90 /* ViewController.xib */,
+				3336A621176EFA8500952D90 /* Supporting Files */,
+			);
+			path = TweetMapPractice;
+			sourceTree = "<group>";
+		};
+		3336A621176EFA8500952D90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3336A622176EFA8500952D90 /* TweetMapPractice-Info.plist */,
+				3336A623176EFA8500952D90 /* InfoPlist.strings */,
+				3336A626176EFA8500952D90 /* main.m */,
+				3336A628176EFA8500952D90 /* TweetMapPractice-Prefix.pch */,
+				3336A62C176EFA8500952D90 /* Default.png */,
+				3336A62E176EFA8500952D90 /* Default@2x.png */,
+				3336A630176EFA8500952D90 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3336A616176EFA8500952D90 /* TweetMapPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3336A63A176EFA8500952D90 /* Build configuration list for PBXNativeTarget "TweetMapPractice" */;
+			buildPhases = (
+				3336A613176EFA8500952D90 /* Sources */,
+				3336A614176EFA8500952D90 /* Frameworks */,
+				3336A615176EFA8500952D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetMapPractice;
+			productName = TweetMapPractice;
+			productReference = 3336A617176EFA8500952D90 /* TweetMapPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3336A60F176EFA8500952D90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thor Lin";
+			};
+			buildConfigurationList = 3336A612176EFA8500952D90 /* Build configuration list for PBXProject "TweetMapPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3336A60E176EFA8500952D90;
+			productRefGroup = 3336A618176EFA8500952D90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3336A616176EFA8500952D90 /* TweetMapPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3336A615176EFA8500952D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3336A625176EFA8500952D90 /* InfoPlist.strings in Resources */,
+				3336A62D176EFA8500952D90 /* Default.png in Resources */,
+				3336A62F176EFA8500952D90 /* Default@2x.png in Resources */,
+				3336A631176EFA8500952D90 /* Default-568h@2x.png in Resources */,
+				3336A637176EFA8500952D90 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3336A613176EFA8500952D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3336A627176EFA8500952D90 /* main.m in Sources */,
+				3336A62B176EFA8500952D90 /* AppDelegate.m in Sources */,
+				3336A634176EFA8500952D90 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3336A623176EFA8500952D90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3336A624176EFA8500952D90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3336A635176EFA8500952D90 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3336A636176EFA8500952D90 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3336A638176EFA8500952D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3336A639176EFA8500952D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3336A63B176EFA8500952D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetMapPractice/TweetMapPractice-Prefix.pch";
+				INFOPLIST_FILE = "TweetMapPractice/TweetMapPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3336A63C176EFA8500952D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetMapPractice/TweetMapPractice-Prefix.pch";
+				INFOPLIST_FILE = "TweetMapPractice/TweetMapPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3336A612176EFA8500952D90 /* Build configuration list for PBXProject "TweetMapPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3336A638176EFA8500952D90 /* Debug */,
+				3336A639176EFA8500952D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3336A63A176EFA8500952D90 /* Build configuration list for PBXNativeTarget "TweetMapPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3336A63B176EFA8500952D90 /* Debug */,
+				3336A63C176EFA8500952D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3336A60F176EFA8500952D90 /* Project object */;
+}
