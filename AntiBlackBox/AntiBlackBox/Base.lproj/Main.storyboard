@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="i2e-AX-GPF">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rlp-8A-ve2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="4EC-1O-KW6" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a8p-Mc-aJi"/>
+                        <viewControllerLayoutGuide type="bottom" id="JUp-WC-uQA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hgv-KH-4Gb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4gx-Kv-YBv">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eA9-kX-4iz"/>
+                    <connections>
+                        <outlet property="myWebView" destination="4gx-Kv-YBv" id="zJD-fq-jys"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1351" y="-394"/>
+        </scene>
+        <!--Anti Black Box First View Controller - 現場網路直播-->
+        <scene sceneID="e0e-cm-5zc">
+            <objects>
+                <tableViewController id="e5r-ph-mNC" customClass="AntiBlackBoxFirstViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bY3-mu-z4L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="i64-4n-rak">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i64-4n-rak" id="dYA-9u-DSO">
+                                    <rect key="frame" x="0.0" y="0.0" width="253" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="4EC-1O-KW6" kind="push" identifier="mySegue" trigger="accessoryAction" id="LYS-fe-X2f"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="現場網路直播" id="Z9e-9b-ido"/>
+                    <connections>
+                        <outlet property="myTableView" destination="bY3-mu-z4L" id="Y8f-AL-Ofp"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gdy-tI-OXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969" y="-394"/>
+        </scene>
+        <!--Navigation Controller - 現場直播-->
+        <scene sceneID="Zsd-zN-iD5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBi-VW-r7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="ZXk-I5-suL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="現場直播" image="12-eye.png" id="9kt-gs-3GD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9YB-Dy-tpf">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="e5r-ph-mNC" kind="relationship" relationship="rootViewController" id="v15-Lb-v8w"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="540" y="-394"/>
+        </scene>
+        <!--Anti Black Boxr Resource View Controller - 物資需求-->
+        <scene sceneID="bCS-6q-gnx">
+            <objects>
+                <viewController id="HqA-Vb-WnS" customClass="AntiBlackBoxrResourceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZWP-5A-Yqx"/>
+                        <viewControllerLayoutGuide type="bottom" id="DKs-5A-E9n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uv1-eU-4gr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UsX-7J-JjU">
+                                <rect key="frame" x="0.0" y="20" width="320" height="501"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="物資需求" image="35-shopping.png" id="4Hn-Zi-sw5"/>
+                    <connections>
+                        <outlet property="myWebView" destination="UsX-7J-JjU" id="0ij-dK-F7N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OfK-fp-ALZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1273" y="336"/>
+        </scene>
+        <!--Anti Black Box Second View Controller - Second-->
+        <scene sceneID="ot8-2e-RuS">
+            <objects>
+                <viewController title="Second" id="QUy-BD-bpt" customClass="AntiBlackBoxSecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EeK-uz-IPw"/>
+                        <viewControllerLayoutGuide type="bottom" id="9TV-hd-7ZG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gMD-aP-Fq6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNS-Ta-Ya0">
+                                <rect key="frame" x="0.0" y="20" width="320" height="501"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="文字直播" image="09-chat-2.png" id="Z7h-1E-pvt"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="myWebView" destination="fNS-Ta-Ya0" id="nCo-6w-jlb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="598" y="336"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Vex-rW-GRa">
+            <objects>
+                <tabBarController id="8YX-ce-x5E" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="JQR-rB-NYL">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
+                        <segue destination="ZXk-I5-suL" kind="relationship" relationship="viewControllers" id="hau-JM-xGN"/>
+                        <segue destination="HqA-Vb-WnS" kind="relationship" relationship="viewControllers" id="CRs-p2-alp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="180"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="09-chat-2.png" width="24" height="22"/>
+        <image name="12-eye.png" width="24" height="16"/>
+        <image name="35-shopping.png" width="24" height="22"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
