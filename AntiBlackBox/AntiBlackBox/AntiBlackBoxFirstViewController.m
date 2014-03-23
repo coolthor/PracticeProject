@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     myTableView.dataSource = self;
-    streamTitleArray = [NSMutableArray arrayWithObjects:@"台灣-[退回服貿*捍衛民主]佔領立法院實況",@"蘋果日報立院現場直播",@"立院場內 + 文字轉播",@"議場內 樓下(五六)",@"反黑箱服貿網路直播 立法院內",@"立法院青島東路直播",@"反黑箱服貿之夜-濟南路",@"蘋果日報立院場外直播", nil];
+    streamTitleArray = [NSMutableArray arrayWithObjects:@"台灣-[退回服貿*捍衛民主]佔領立法院實況",@"立院場內 + 文字轉播",@"議場內 樓下(五六)",@"反黑箱服貿之夜-濟南路",@"g0v 機動直播組 前往行政院",@"蘋果直播", nil];
 }
 
 - (void)didReceiveMemoryWarning

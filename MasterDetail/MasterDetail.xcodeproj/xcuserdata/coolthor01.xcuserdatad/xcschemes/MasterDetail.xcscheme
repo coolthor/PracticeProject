@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3310C36218DE43760085F3B9"
-               BuildableName = "AntiBlackBox.app"
-               BlueprintName = "AntiBlackBox"
-               ReferencedContainer = "container:AntiBlackBox.xcodeproj">
+               BlueprintIdentifier = "3310C3B418DE6C340085F3B9"
+               BuildableName = "MasterDetail.app"
+               BlueprintName = "MasterDetail"
+               ReferencedContainer = "container:MasterDetail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3310C38618DE43760085F3B9"
-               BuildableName = "AntiBlackBoxTests.xctest"
-               BlueprintName = "AntiBlackBoxTests"
-               ReferencedContainer = "container:AntiBlackBox.xcodeproj">
+               BlueprintIdentifier = "3310C3D818DE6C350085F3B9"
+               BuildableName = "MasterDetailTests.xctest"
+               BlueprintName = "MasterDetailTests"
+               ReferencedContainer = "container:MasterDetail.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3310C36218DE43760085F3B9"
-            BuildableName = "AntiBlackBox.app"
-            BlueprintName = "AntiBlackBox"
-            ReferencedContainer = "container:AntiBlackBox.xcodeproj">
+            BlueprintIdentifier = "3310C3B418DE6C340085F3B9"
+            BuildableName = "MasterDetail.app"
+            BlueprintName = "MasterDetail"
+            ReferencedContainer = "container:MasterDetail.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3310C36218DE43760085F3B9"
-            BuildableName = "AntiBlackBox.app"
-            BlueprintName = "AntiBlackBox"
-            ReferencedContainer = "container:AntiBlackBox.xcodeproj">
+            BlueprintIdentifier = "3310C3B418DE6C340085F3B9"
+            BuildableName = "MasterDetail.app"
+            BlueprintName = "MasterDetail"
+            ReferencedContainer = "container:MasterDetail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3310C36218DE43760085F3B9"
-            BuildableName = "AntiBlackBox.app"
-            BlueprintName = "AntiBlackBox"
-            ReferencedContainer = "container:AntiBlackBox.xcodeproj">
+            BlueprintIdentifier = "3310C3B418DE6C340085F3B9"
+            BuildableName = "MasterDetail.app"
+            BlueprintName = "MasterDetail"
+            ReferencedContainer = "container:MasterDetail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

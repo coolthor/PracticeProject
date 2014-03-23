@@ -31,11 +31,12 @@
     myWebView01 = [[UIWebView alloc] initWithFrame:CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height)];
     [self.view addSubview:myWebView01];
     
-    urlArray = [NSMutableArray arrayWithObjects:@"http://www.ustream.tv/channel/longson3000",@"https://www.youtube.com/watch?feature=player_embedded&v=dE_EsgFLRsc",@"https://www.youtube.com/watch?v=IpM_mYdp_Xg",@"http://www.ustream.tv/channel/nonukestw",@"https://www.youtube.com/watch?v=j6wwrYie-tE",@"https://www.youtube.com/watch?v=-22JEU6myA8",@"http://www.ustream.tv/channel/%E5%8F%8D%E9%BB%91%E7%AE%B1%E6%9C%8D%E8%B2%BF%E4%B9%8B%E5%A4%9C-%E6%BF%9F%E5%8D%97%E8%B7%AF3-21-19-18",@"https://www.youtube.com/watch?v=hwuYYiEoRdo", nil];
+    urlArray = [NSMutableArray arrayWithObjects:@"http://www.ustream.tv/channel/longson3000",@"https://www.youtube.com/watch?v=IpM_mYdp_Xg",@"http://www.ustream.tv/channel/nonukestw",@"http://www.ustream.tv/channel/%E5%8F%8D%E9%BB%91%E7%AE%B1%E6%9C%8D%E8%B2%BF%E4%B9%8B%E5%A4%9C-%E6%BF%9F%E5%8D%97%E8%B7%AF3-21-19-18",@"https://www.youtube.com/watch?v=uTxGjgRu3Xs",@"http://www.appledaily.com.tw/LIVE/other", nil];
     
     NSURL *url = [NSURL URLWithString:[urlArray objectAtIndex:_arrayIndex]];
     NSURLRequest * request = [[NSURLRequest alloc]initWithURL:url];
     [myWebView01 loadRequest:request];
+    myWebView01.scalesPageToFit =YES;
 }
 -(void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
     myWebView01.frame = CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
