@@ -78,7 +78,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBi-VW-r7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="540" y="-394"/>
+            <point key="canvasLocation" x="569" y="-394"/>
         </scene>
         <!--Anti Black Boxr Resource View Controller - 物資需求-->
         <scene sceneID="bCS-6q-gnx">
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OfK-fp-ALZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1273" y="336"/>
+            <point key="canvasLocation" x="1351" y="261"/>
         </scene>
         <!--Anti Black Box Second View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
@@ -139,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="598" y="336"/>
+            <point key="canvasLocation" x="969" y="261"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -155,16 +155,58 @@
                         <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
                         <segue destination="ZXk-I5-suL" kind="relationship" relationship="viewControllers" id="hau-JM-xGN"/>
                         <segue destination="HqA-Vb-WnS" kind="relationship" relationship="viewControllers" id="CRs-p2-alp"/>
+                        <segue destination="k7y-vU-SxU" kind="relationship" relationship="viewControllers" id="46r-Ul-NJH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="180"/>
         </scene>
+        <!--View Controller - 關於-->
+        <scene sceneID="bha-Z6-uef">
+            <objects>
+                <viewController id="k7y-vU-SxU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="71J-ef-B6D"/>
+                        <viewControllerLayoutGuide type="bottom" id="Api-7S-IoB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kRB-07-GsR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwr-uk-PqR">
+                                <rect key="frame" x="20" y="54" width="275" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">不好意思，這個以app來說實在太過簡陋了，但是為了時效性，請大家多多見諒。
+如果有什麼建議與問題發現，歡迎來信到coolthor01@gmail.com 
+資料來源：
+http://g0v.today/
+
+點子來源：
+https://wireframe.cc/6f96m8
+
+圖示來源： http://www.glyphish.com/
+
+自己的國家自己救！</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="關於" image="29-heart.png" id="Bbp-YY-idx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RiH-tc-0xQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="569" y="570"/>
+        </scene>
     </scenes>
     <resources>
         <image name="09-chat-2.png" width="24" height="22"/>
         <image name="12-eye.png" width="24" height="16"/>
+        <image name="29-heart.png" width="24" height="21"/>
         <image name="35-shopping.png" width="24" height="22"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

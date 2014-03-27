@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3310C36218DE43760085F3B9"
                BuildableName = "AntiBlackBox.app"
-               BlueprintName = "AntiBlackBox"
+               BlueprintName = "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
                ReferencedContainer = "container:AntiBlackBox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3310C38618DE43760085F3B9"
-               BuildableName = "AntiBlackBoxTests.xctest"
-               BlueprintName = "AntiBlackBoxTests"
+               BuildableName = "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
                ReferencedContainer = "container:AntiBlackBox.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3310C36218DE43760085F3B9"
             BuildableName = "AntiBlackBox.app"
-            BlueprintName = "AntiBlackBox"
+            BlueprintName = "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
             ReferencedContainer = "container:AntiBlackBox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3310C36218DE43760085F3B9"
             BuildableName = "AntiBlackBox.app"
-            BlueprintName = "AntiBlackBox"
+            BlueprintName = "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
             ReferencedContainer = "container:AntiBlackBox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -81,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3310C36218DE43760085F3B9"
             BuildableName = "AntiBlackBox.app"
-            BlueprintName = "AntiBlackBox"
+            BlueprintName = "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
             ReferencedContainer = "container:AntiBlackBox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

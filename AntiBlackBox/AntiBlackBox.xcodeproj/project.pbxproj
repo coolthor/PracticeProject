@@ -27,6 +27,7 @@
 		3310C3A518DE47190085F3B9 /* 35-shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = 3310C3A218DE47190085F3B9 /* 35-shopping.png */; };
 		3310C3A818DE5ECC0085F3B9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310C3A718DE5ECC0085F3B9 /* DetailViewController.m */; };
 		3310C3F218DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310C3F118DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.m */; };
+		33A2755518DF2B2000D57C79 /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A2755418DF2B2000D57C79 /* 29-heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +45,10 @@
 		3310C36618DE43760085F3B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3310C36818DE43760085F3B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3310C36A18DE43760085F3B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3310C36E18DE43760085F3B9 /* AntiBlackBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AntiBlackBox-Info.plist"; sourceTree = "<group>"; };
+		3310C36E18DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
 		3310C37018DE43760085F3B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3310C37218DE43760085F3B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3310C37418DE43760085F3B9 /* AntiBlackBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AntiBlackBox-Prefix.pch"; sourceTree = "<group>"; };
+		3310C37418DE43760085F3B9 /* AntiBlackbox.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AntiBlackbox.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
 		3310C37518DE43760085F3B9 /* AntiBlackBoxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AntiBlackBoxAppDelegate.h; sourceTree = "<group>"; };
 		3310C37618DE43760085F3B9 /* AntiBlackBoxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiBlackBoxAppDelegate.m; sourceTree = "<group>"; };
 		3310C37918DE43760085F3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,9 +57,9 @@
 		3310C37E18DE43760085F3B9 /* AntiBlackBoxSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AntiBlackBoxSecondViewController.h; sourceTree = "<group>"; };
 		3310C37F18DE43760085F3B9 /* AntiBlackBoxSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiBlackBoxSecondViewController.m; sourceTree = "<group>"; };
 		3310C38118DE43760085F3B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3310C38718DE43760085F3B9 /* AntiBlackBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntiBlackBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3310C38718DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3310C38818DE43760085F3B9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3310C39018DE43760085F3B9 /* AntiBlackBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AntiBlackBoxTests-Info.plist"; sourceTree = "<group>"; };
+		3310C39018DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
 		3310C39218DE43760085F3B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3310C39418DE43760085F3B9 /* AntiBlackBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiBlackBoxTests.m; sourceTree = "<group>"; };
 		3310C3A018DE47190085F3B9 /* 09-chat-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09-chat-2.png"; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		3310C3A718DE5ECC0085F3B9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3310C3F018DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntiBlackBoxrResourceViewController.h; sourceTree = "<group>"; };
 		3310C3F118DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntiBlackBoxrResourceViewController.m; sourceTree = "<group>"; };
+		33A2755418DF2B2000D57C79 /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +106,13 @@
 				3310C36418DE43760085F3B9 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		3310C36418DE43760085F3B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				3310C36318DE43760085F3B9 /* AntiBlackBox.app */,
-				3310C38718DE43760085F3B9 /* AntiBlackBoxTests.xctest */,
+				3310C38718DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,10 +151,10 @@
 		3310C36D18DE43760085F3B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3310C36E18DE43760085F3B9 /* AntiBlackBox-Info.plist */,
+				3310C36E18DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist */,
 				3310C36F18DE43760085F3B9 /* InfoPlist.strings */,
 				3310C37218DE43760085F3B9 /* main.m */,
-				3310C37418DE43760085F3B9 /* AntiBlackBox-Prefix.pch */,
+				3310C37418DE43760085F3B9 /* AntiBlackbox.temp_caseinsensitive_rename-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,7 +171,7 @@
 		3310C38F18DE43760085F3B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3310C39018DE43760085F3B9 /* AntiBlackBoxTests-Info.plist */,
+				3310C39018DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist */,
 				3310C39118DE43760085F3B9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -177,6 +180,7 @@
 		3310C39F18DE46CA0085F3B9 /* Pic */ = {
 			isa = PBXGroup;
 			children = (
+				33A2755418DF2B2000D57C79 /* 29-heart.png */,
 				3310C3A018DE47190085F3B9 /* 09-chat-2.png */,
 				3310C3A118DE47190085F3B9 /* 12-eye.png */,
 				3310C3A218DE47190085F3B9 /* 35-shopping.png */,
@@ -187,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3310C36218DE43760085F3B9 /* AntiBlackBox */ = {
+		3310C36218DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3310C39818DE43760085F3B9 /* Build configuration list for PBXNativeTarget "AntiBlackBox" */;
+			buildConfigurationList = 3310C39818DE43760085F3B9 /* Build configuration list for PBXNativeTarget "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				3310C35F18DE43760085F3B9 /* Sources */,
 				3310C36018DE43760085F3B9 /* Frameworks */,
@@ -199,14 +203,14 @@
 			);
 			dependencies = (
 			);
-			name = AntiBlackBox;
+			name = AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 			productName = AntiBlackBox;
 			productReference = 3310C36318DE43760085F3B9 /* AntiBlackBox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3310C38618DE43760085F3B9 /* AntiBlackBoxTests */ = {
+		3310C38618DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3310C39B18DE43760085F3B9 /* Build configuration list for PBXNativeTarget "AntiBlackBoxTests" */;
+			buildConfigurationList = 3310C39B18DE43760085F3B9 /* Build configuration list for PBXNativeTarget "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				3310C38318DE43760085F3B9 /* Sources */,
 				3310C38418DE43760085F3B9 /* Frameworks */,
@@ -217,9 +221,9 @@
 			dependencies = (
 				3310C38D18DE43760085F3B9 /* PBXTargetDependency */,
 			);
-			name = AntiBlackBoxTests;
+			name = AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
 			productName = AntiBlackBoxTests;
-			productReference = 3310C38718DE43760085F3B9 /* AntiBlackBoxTests.xctest */;
+			productReference = 3310C38718DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -253,8 +257,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3310C36218DE43760085F3B9 /* AntiBlackBox */,
-				3310C38618DE43760085F3B9 /* AntiBlackBoxTests */,
+				3310C36218DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename */,
+				3310C38618DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,6 +272,7 @@
 				3310C3A518DE47190085F3B9 /* 35-shopping.png in Resources */,
 				3310C38218DE43760085F3B9 /* Images.xcassets in Resources */,
 				3310C3A318DE47190085F3B9 /* 09-chat-2.png in Resources */,
+				33A2755518DF2B2000D57C79 /* 29-heart.png in Resources */,
 				3310C37118DE43760085F3B9 /* InfoPlist.strings in Resources */,
 				3310C37A18DE43760085F3B9 /* Main.storyboard in Resources */,
 			);
@@ -310,7 +315,7 @@
 /* Begin PBXTargetDependency section */
 		3310C38D18DE43760085F3B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3310C36218DE43760085F3B9 /* AntiBlackBox */;
+			target = 3310C36218DE43760085F3B9 /* AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename */;
 			targetProxy = 3310C38C18DE43760085F3B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,6 +382,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -408,6 +414,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -419,10 +426,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AntiBlackBox/AntiBlackBox-Prefix.pch";
-				INFOPLIST_FILE = "AntiBlackBox/AntiBlackBox-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AntiBlackBox/AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "AntiBlackBox/AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = AntiBlackBox;
+				PROVISIONING_PROFILE = "F59F8D70-7FC7-4776-AE95-B995E68ADDED";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,10 +443,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AntiBlackBox/AntiBlackBox-Prefix.pch";
-				INFOPLIST_FILE = "AntiBlackBox/AntiBlackBox-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AntiBlackBox/AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "AntiBlackBox/AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = AntiBlackBox;
+				PROVISIONING_PROFILE = "F59F8D70-7FC7-4776-AE95-B995E68ADDED";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -458,8 +469,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "AntiBlackBoxTests/AntiBlackBoxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AntiBlackBoxTests/AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -476,8 +487,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AntiBlackBox/AntiBlackBox-Prefix.pch";
-				INFOPLIST_FILE = "AntiBlackBoxTests/AntiBlackBoxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AntiBlackBoxTests/AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -495,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3310C39818DE43760085F3B9 /* Build configuration list for PBXNativeTarget "AntiBlackBox" */ = {
+		3310C39818DE43760085F3B9 /* Build configuration list for PBXNativeTarget "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3310C39918DE43760085F3B9 /* Debug */,
@@ -504,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3310C39B18DE43760085F3B9 /* Build configuration list for PBXNativeTarget "AntiBlackBoxTests" */ = {
+		3310C39B18DE43760085F3B9 /* Build configuration list for PBXNativeTarget "AntiBlackBox.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3310C39C18DE43760085F3B9 /* Debug */,
