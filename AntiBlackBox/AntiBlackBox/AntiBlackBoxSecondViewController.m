@@ -33,8 +33,6 @@
 
     _myWebView.frame = CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
     
-    _myWebView.scalesPageToFit = YES;
-    
     [self.view setAutoresizesSubviews:YES];
     NSURL *url = [NSURL URLWithString:@"http://logbot.gqv.tw/live/fumao.word.live"];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
