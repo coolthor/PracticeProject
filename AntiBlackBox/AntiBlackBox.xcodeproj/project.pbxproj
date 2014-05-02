@@ -27,7 +27,7 @@
 		3310C39318DE43760085F3B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3310C39118DE43760085F3B9 /* InfoPlist.strings */; };
 		3310C39518DE43760085F3B9 /* AntiBlackBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310C39418DE43760085F3B9 /* AntiBlackBoxTests.m */; };
 		3310C3A818DE5ECC0085F3B9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310C3A718DE5ECC0085F3B9 /* DetailViewController.m */; };
-		3310C3F218DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310C3F118DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.m */; };
+		331F150719133CEC00CE70C6 /* AntiBlackBoxrResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331F150619133CEC00CE70C6 /* AntiBlackBoxrResourceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +68,8 @@
 		3310C39418DE43760085F3B9 /* AntiBlackBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiBlackBoxTests.m; sourceTree = "<group>"; };
 		3310C3A618DE5ECC0085F3B9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		3310C3A718DE5ECC0085F3B9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		3310C3F018DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntiBlackBoxrResourceViewController.h; sourceTree = "<group>"; };
-		3310C3F118DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntiBlackBoxrResourceViewController.m; sourceTree = "<group>"; };
+		331F150519133CEC00CE70C6 /* AntiBlackBoxrResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntiBlackBoxrResourceViewController.h; sourceTree = "<group>"; };
+		331F150619133CEC00CE70C6 /* AntiBlackBoxrResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntiBlackBoxrResourceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +141,8 @@
 		3310C36C18DE43760085F3B9 /* AntiBlackBox */ = {
 			isa = PBXGroup;
 			children = (
+				331F150519133CEC00CE70C6 /* AntiBlackBoxrResourceViewController.h */,
+				331F150619133CEC00CE70C6 /* AntiBlackBoxrResourceViewController.m */,
 				3310C37518DE43760085F3B9 /* AntiBlackBoxAppDelegate.h */,
 				3310C37618DE43760085F3B9 /* AntiBlackBoxAppDelegate.m */,
 				3310C37818DE43760085F3B9 /* Main.storyboard */,
@@ -153,8 +155,6 @@
 				3310C36D18DE43760085F3B9 /* Supporting Files */,
 				3310C3A618DE5ECC0085F3B9 /* DetailViewController.h */,
 				3310C3A718DE5ECC0085F3B9 /* DetailViewController.m */,
-				3310C3F018DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.h */,
-				3310C3F118DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.m */,
 			);
 			path = AntiBlackBox;
 			sourceTree = "<group>";
@@ -295,7 +295,7 @@
 				3310C37D18DE43760085F3B9 /* AntiBlackBoxFirstViewController.m in Sources */,
 				3310C38018DE43760085F3B9 /* AntiBlackBoxSecondViewController.m in Sources */,
 				3310C37318DE43760085F3B9 /* main.m in Sources */,
-				3310C3F218DEFAB90085F3B9 /* AntiBlackBoxrResourceViewController.m in Sources */,
+				331F150719133CEC00CE70C6 /* AntiBlackBoxrResourceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,53 +5,29 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9FFBF6A6-61F8-43A8-9A2A-CF66597F37BB</string>
+	<string>A02261D1-A5B3-4454-81FB-6378C753C785</string>
 	<key>IDESourceControlProjectName</key>
-	<string>AntiBlackBox</string>
+	<string>TabelViewTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0297DEE9-F4FD-44B8-BF91-47B276857762</key>
-		<string>https://github.com/coolthor/AntiBlackBox.git</string>
 		<key>78BF0B2D-92FA-4FED-B4C3-164B34FA8A06</key>
 		<string>https://github.com/coolthor/PracticeProject.git</string>
-		<key>ACC0CEE4-1192-4838-B869-C7E90A21FBDB</key>
-		<string>https://github.com/coolthor/AntiBlackBox.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AntiBlackBox/AntiBlackBox.xcodeproj/project.xcworkspace</string>
+	<string>TabelViewTest/TabelViewTest.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0297DEE9-F4FD-44B8-BF91-47B276857762</key>
-		<string>../../AntiBlackBox</string>
 		<key>78BF0B2D-92FA-4FED-B4C3-164B34FA8A06</key>
 		<string>../../..</string>
-		<key>ACC0CEE4-1192-4838-B869-C7E90A21FBDB</key>
-		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/coolthor/AntiBlackBox.git</string>
+	<string>https://github.com/coolthor/PracticeProject.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>78BF0B2D-92FA-4FED-B4C3-164B34FA8A06</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>ACC0CEE4-1192-4838-B869-C7E90A21FBDB</string>
-			<key>IDESourceControlWCCName</key>
-			<string>AntiBlackBox</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0297DEE9-F4FD-44B8-BF91-47B276857762</string>
-			<key>IDESourceControlWCCName</key>
-			<string>AntiBlackBox</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
