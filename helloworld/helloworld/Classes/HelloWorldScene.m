@@ -36,7 +36,7 @@
     // Apple recommend assigning self with supers return value
     self = [super init];
     if (!self) return(nil);
-    
+    [UIColor colorWithRed:0.137 green:0.990 blue:0.456 alpha:1.000];
     // Enable touch handling on scene node
     self.userInteractionEnabled = YES;
     

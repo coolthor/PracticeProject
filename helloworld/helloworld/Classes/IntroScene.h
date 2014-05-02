@@ -20,10 +20,12 @@
  *  Main usage for CCLayer now, is to make colored backgrounds (rectangles)
  *
  */
-@interface IntroScene : CCScene
+@interface IntroScene : CCScene<CCPhysicsCollisionDelegate>
 {
     NSMutableArray * _targets;
     NSMutableArray * _projectiles;
+    CCPhysicsNode * _physicsWorld;
+    CCSprite * _player;
 }
 // -----------------------------------------------------------------------
 
