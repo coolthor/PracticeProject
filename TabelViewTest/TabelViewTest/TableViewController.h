@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+//失敗的case
+//New file的時候直接繼承UITableViewController生出來的class
 @interface TableViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>
 
 @end

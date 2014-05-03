@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//成功的case
+//原本UIViewController 手動改寫成UITableViewController
 @interface ViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>
 
 @end

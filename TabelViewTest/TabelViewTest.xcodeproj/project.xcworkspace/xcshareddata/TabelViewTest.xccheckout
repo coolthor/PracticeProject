@@ -5,36 +5,60 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A02261D1-A5B3-4454-81FB-6378C753C785</string>
+	<string>090022FF-71D5-40D9-BC45-C95F9DECB14C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TabelViewTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>78BF0B2D-92FA-4FED-B4C3-164B34FA8A06</key>
+		<key>044B65CA-13F3-4E8F-BC13-927460FACCC7</key>
+		<string>https://github.com/coolthor/TabelViewTest.git</string>
+		<key>1C8A9E01-932A-4652-BE0A-47AC363039C1</key>
 		<string>https://github.com/coolthor/PracticeProject.git</string>
+		<key>D3E5B1B8-396E-4724-A7F4-A644EC49C3AE</key>
+		<string>https://github.com/coolthor/TabelViewTest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TabelViewTest/TabelViewTest.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>78BF0B2D-92FA-4FED-B4C3-164B34FA8A06</key>
+		<key>044B65CA-13F3-4E8F-BC13-927460FACCC7</key>
+		<string>../..</string>
+		<key>1C8A9E01-932A-4652-BE0A-47AC363039C1</key>
 		<string>../../..</string>
+		<key>D3E5B1B8-396E-4724-A7F4-A644EC49C3AE</key>
+		<string>../../TabelViewTest</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/coolthor/PracticeProject.git</string>
+	<string>https://github.com/coolthor/TabelViewTest.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>78BF0B2D-92FA-4FED-B4C3-164B34FA8A06</string>
+	<string>1C8A9E01-932A-4652-BE0A-47AC363039C1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>78BF0B2D-92FA-4FED-B4C3-164B34FA8A06</string>
+			<string>1C8A9E01-932A-4652-BE0A-47AC363039C1</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PracticeProject</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>044B65CA-13F3-4E8F-BC13-927460FACCC7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TabelViewTest</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D3E5B1B8-396E-4724-A7F4-A644EC49C3AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TabelViewTest</string>
 		</dict>
 	</array>
 </dict>
