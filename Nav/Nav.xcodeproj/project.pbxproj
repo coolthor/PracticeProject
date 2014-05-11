@@ -26,7 +26,10 @@
 		331F14FD191282F900CE70C6 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 331F14FA191282F900CE70C6 /* 111-user.png */; };
 		331F14FE191282F900CE70C6 /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 331F14FB191282F900CE70C6 /* 179-notepad.png */; };
 		331F1500191283BC00CE70C6 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 331F14FF191283BC00CE70C6 /* 20-gear2.png */; };
-		3338981E19138EBB00A6D0E9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338981D19138EBB00A6D0E9 /* RootViewController.m */; };
+		33A769D9191F2CCE000E5DE5 /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A769D7191F2CCE000E5DE5 /* myTableViewCell.m */; };
+		33A769DA191F2CCE000E5DE5 /* myTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A769D8191F2CCE000E5DE5 /* myTableViewCell.xib */; };
+		33A769DC191F4EF9000E5DE5 /* headSample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33A769DB191F4EF9000E5DE5 /* headSample.jpg */; };
+		33DC1B54191CF13F00B87584 /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DC1B53191CF13F00B87584 /* UserTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +68,12 @@
 		331F14FA191282F900CE70C6 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
 		331F14FB191282F900CE70C6 /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "179-notepad.png"; sourceTree = "<group>"; };
 		331F14FF191283BC00CE70C6 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
-		3338981C19138EBB00A6D0E9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
-		3338981D19138EBB00A6D0E9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		33A769D6191F2CCE000E5DE5 /* myTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewCell.h; sourceTree = "<group>"; };
+		33A769D7191F2CCE000E5DE5 /* myTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewCell.m; sourceTree = "<group>"; };
+		33A769D8191F2CCE000E5DE5 /* myTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myTableViewCell.xib; sourceTree = "<group>"; };
+		33A769DB191F4EF9000E5DE5 /* headSample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headSample.jpg; sourceTree = "<group>"; };
+		33DC1B52191CF13F00B87584 /* UserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewController.h; sourceTree = "<group>"; };
+		33DC1B53191CF13F00B87584 /* UserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +103,9 @@
 		331F14B519127E0200CE70C6 = {
 			isa = PBXGroup;
 			children = (
+				33A769D6191F2CCE000E5DE5 /* myTableViewCell.h */,
+				33A769D7191F2CCE000E5DE5 /* myTableViewCell.m */,
+				33A769D8191F2CCE000E5DE5 /* myTableViewCell.xib */,
 				331F14C719127E0200CE70C6 /* Nav */,
 				331F14E919127E0200CE70C6 /* NavTests */,
 				331F14C019127E0200CE70C6 /* Frameworks */,
@@ -126,8 +136,6 @@
 		331F14C719127E0200CE70C6 /* Nav */ = {
 			isa = PBXGroup;
 			children = (
-				3338981C19138EBB00A6D0E9 /* RootViewController.h */,
-				3338981D19138EBB00A6D0E9 /* RootViewController.m */,
 				331F1501191283DE00CE70C6 /* image */,
 				331F14D019127E0200CE70C6 /* AppDelegate.h */,
 				331F14D119127E0200CE70C6 /* AppDelegate.m */,
@@ -138,6 +146,8 @@
 				331F14DA19127E0200CE70C6 /* SecondViewController.m */,
 				331F14DC19127E0200CE70C6 /* Images.xcassets */,
 				331F14C819127E0200CE70C6 /* Supporting Files */,
+				33DC1B52191CF13F00B87584 /* UserTableViewController.h */,
+				33DC1B53191CF13F00B87584 /* UserTableViewController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -174,6 +184,7 @@
 		331F1501191283DE00CE70C6 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				33A769DB191F4EF9000E5DE5 /* headSample.jpg */,
 				331F14F9191282F900CE70C6 /* 96-book.png */,
 				331F14FA191282F900CE70C6 /* 111-user.png */,
 				331F14FB191282F900CE70C6 /* 179-notepad.png */,
@@ -261,8 +272,10 @@
 				331F1500191283BC00CE70C6 /* 20-gear2.png in Resources */,
 				331F14DD19127E0200CE70C6 /* Images.xcassets in Resources */,
 				331F14FD191282F900CE70C6 /* 111-user.png in Resources */,
+				33A769DC191F4EF9000E5DE5 /* headSample.jpg in Resources */,
 				331F14FC191282F900CE70C6 /* 96-book.png in Resources */,
 				331F14CC19127E0200CE70C6 /* InfoPlist.strings in Resources */,
+				33A769DA191F2CCE000E5DE5 /* myTableViewCell.xib in Resources */,
 				331F14D519127E0200CE70C6 /* Main.storyboard in Resources */,
 				331F14FE191282F900CE70C6 /* 179-notepad.png in Resources */,
 			);
@@ -284,10 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				331F14DB19127E0200CE70C6 /* SecondViewController.m in Sources */,
+				33DC1B54191CF13F00B87584 /* UserTableViewController.m in Sources */,
+				33A769D9191F2CCE000E5DE5 /* myTableViewCell.m in Sources */,
 				331F14D219127E0200CE70C6 /* AppDelegate.m in Sources */,
 				331F14D819127E0200CE70C6 /* FirstViewController.m in Sources */,
 				331F14CE19127E0200CE70C6 /* main.m in Sources */,
-				3338981E19138EBB00A6D0E9 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

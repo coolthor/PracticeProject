@@ -1,0 +1,810 @@
+T20131108
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/20131108.app/ResourceRules.plist
+cProcessPCH /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.o /Users/coolthor01/PracticeProject/20131108/20131108/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.o /Users/coolthor01/PracticeProject/20131108/20131108/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.o /Users/coolthor01/PracticeProject/20131108/20131108/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108 normal armv7
+cLd /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108 normal armv7s
+cLd /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108 normal arm64
+cCreateUniversalBinary /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108 normal armv7\ armv7s\ arm64
+cCopyStringsFile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/en.lproj/InfoPlist.strings 20131108/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/coolthor01/PracticeProject/20131108/20131108/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app /Users/coolthor01/PracticeProject/20131108/20131108/Images.xcassets
+cProcessInfoPlistFile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Info.plist /Users/coolthor01/PracticeProject/20131108/20131108/20131108-Info.plist
+cGenerateDSYMFile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app.dSYM /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108
+cProcessProductPackaging /Users/coolthor01/Library/MobileDevice/Provisioning\ Profiles/D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC.mobileprovision /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/embedded.mobileprovision
+cTouch /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108.xcent
+cCodeSign /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+cValidate /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c0000000053657AF40000000000000094
+t1399159540
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053657AF40000000000000096
+t1399159540
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053657AF4000000000000036B
+t1399159540
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053657AF4000000000000019E
+t1399159540
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053657AFB00000000004D7BC0
+t1399159547
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053657AFC0000000000A90C10
+t1399159548
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework/Social
+c0000000053657B0100000000002C0C30
+t1399159553
+s2886704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053657B090000000002759920
+t1399159561
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053657BFF0000000000000ADC
+t1399159807
+s2780
+
+N/Users/coolthor01/Library/MobileDevice/Provisioning Profiles/D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC.mobileprovision
+c000000005225034D0000000000001D74
+t1378157389
+s7540
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/20131108-Info.plist
+c00000000527CBBA0000000000000058C
+t1383906208
+s1420
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch
+c00000000527CBBA00000000000000158
+t1383906208
+s344
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/Base.lproj/Main.storyboard
+c00000000527CBBA0000000000000286F
+t1383906208
+s10351
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/Images.xcassets
+c00000000527CBBA000000000000000CC
+t1383906208
+s204
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m
+c00000000527CBBA00000000000000819
+t1383906208
+s2073
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m
+c00000000527CBBA00000000000000259
+t1383906208
+s601
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m
+c00000000527CBBA0000000000000025D
+t1383906208
+s605
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/en.lproj/InfoPlist.strings
+c00000000527CBBA0000000000000002D
+t1383906208
+s45
+
+N/Users/coolthor01/PracticeProject/20131108/20131108/main.m
+c00000000527CBBA0000000000000017D
+t1383906208
+s381
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108.xcent
+t1399385824
+s408
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108
+t1399385820
+s55932
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108.LinkFileList
+c000000005368EEDA0000000000000258
+t1399385818
+s600
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.o
+t1399385820
+s66452
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.o
+t1399385820
+s39124
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.o
+t1399385820
+s39140
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.o
+t1399385820
+s4468
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108
+t1399385820
+s55544
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108.LinkFileList
+c000000005368EEDA0000000000000258
+t1399385818
+s600
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.o
+t1399385820
+s62384
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.o
+t1399385820
+s39600
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.o
+t1399385820
+s39616
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.o
+t1399385820
+s3848
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108
+t1399385820
+s55548
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108.LinkFileList
+c000000005368EEDA000000000000025C
+t1399385818
+s604
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.o
+t1399385820
+s62384
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.o
+t1399385820
+s39600
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.o
+t1399385820
+s39616
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.o
+t1399385820
+s3848
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/assetcatalog_dependencies.txt
+t1399385822
+s343
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/assetcatalog_generated_info.plist
+t1399385822
+s525
+
+N/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+t1399385824
+s374
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app.dSYM
+t2
+s0
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108
+t1399385820
+s203388
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Base.lproj/Main.storyboardc
+t1399385824
+s204
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Info.plist
+t1399385824
+s1405
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/PkgInfo
+t1399385824
+s8
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/ResourceRules.plist
+t1399385818
+s150
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/embedded.mobileprovision
+t1399385824
+s7540
+
+N/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/en.lproj/InfoPlist.strings
+t1399385820
+s42
+
+N/var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.pch
+t1399385820
+s110792
+
+N/var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.pch
+t1399385820
+s88232
+
+N/var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.pch
+t1399385820
+s88208
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies124dd8592619b941^0b08395a2619b941^---0#1#1#--18"Check dependencies36"C560FF69-5D38-4ABA-8E91-AF3A0BB54028-
+
+CCodeSign /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+s421078624.409588
+e421078624.744095
+r1
+xCodeSign
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"[1mCodeSign[0m [1mbuild/Release-iphoneos/20131108.app[0m60"[1mCodeSign[0m [1mbuild/Release-iphoneos/20131108.app[0m2c1069602619b941^bb7dbe602619b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/0000000000000000^1034"[1mCodeSign[0m [1mbuild/Release-iphoneos/20131108.app[0m    cd /Users/coolthor01/PracticeProject/20131108    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    Using code signing identity "iPhone Developer: Tz-Je Lin (DDHMN28CE2)" and provisioning profile "iOS Team Provisioning Profile: *" (D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC)    /usr/bin/codesign --force --sign 9154D48F7B4DA3302C904C4B3C387DF9587008DB --resource-rules=/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/ResourceRules.plist --entitlements /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108.xcent /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app36"A00082F9-1112-409E-B16F-55BA0B86DCF3-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileAssetCatalog /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app /Users/coolthor01/PracticeProject/20131108/20131108/Images.xcassets
+s421078620.745024
+e421078622.806730
+r1
+xCompileAssetCatalog
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+x/Users/coolthor01/PracticeProject/20131108/20131108/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/LaunchImage-700-568h@2x.png
+o/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Assets.car
+o/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"[1mCompileAssetCatalog[0m build/Release-iphoneos/20131108.app [1m20131108/Images.xcassets[0m96"[1mCompileAssetCatalog[0m build/Release-iphoneos/20131108.app [1m20131108/Images.xcassets[0m75cbbe5c2619b941^2f86ce5e2619b941^-371"/* com.apple.actool.compilation-results *//Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/LaunchImage-700-568h@2x.png/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Assets.car/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@75"file:///Users/coolthor01/PracticeProject/20131108/20131108/Images.xcassets/0000000000000000^1085"[1mCompileAssetCatalog[0m build/Release-iphoneos/20131108.app [1m20131108/Images.xcassets[0m    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app /Users/coolthor01/PracticeProject/20131108/20131108/Images.xcassets36"BE80CA2F-57A5-4C01-B0B7-17873283A969-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.458449
+e421078620.562949
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m248"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.o [1m20131108/UIKitDynamicPractice01AppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilere081755c2619b941^5c1d905c2619b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m0000000000000000^3601"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.o [1m20131108/UIKitDynamicPractice01AppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/arm64 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.o36"AE6BFCDD-A776-4A7A-834D-85861D874614-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.400824
+e421078620.514945
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m264"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.o [1m20131108/UIKitDynamicPractice01FirstViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler34bf665c2619b941^eee8835c2619b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m0000000000000000^3649"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.o [1m20131108/UIKitDynamicPractice01FirstViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/arm64 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.o36"99F2A5F3-DBB0-4861-8CEB-3F495F49843C-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.422574
+e421078620.523602
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m266"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.o [1m20131108/UIKitDynamicPractice01SecondViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb2a06c5c2619b941^700b865c2619b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m0000000000000000^3655"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.o [1m20131108/UIKitDynamicPractice01SecondViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/arm64 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.o36"AA81F926-9E18-44C6-8288-4C4821A7DDD4-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.o /Users/coolthor01/PracticeProject/20131108/20131108/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.425276
+e421078620.511764
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/main.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/coolthor01/PracticeProject/20131108/20131108/main.m190"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.o [1m20131108/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler50006d5c2619b941^bc04835c2619b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/coolthor01/PracticeProject/20131108/20131108/main.m0000000000000000^3427"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.o [1m20131108/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/arm64 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/main.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.o36"E2EB9F11-F555-48CE-8E71-5E4F13F29904-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.101189
+e421078620.315334
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m248"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.o [1m20131108/UIKitDynamicPractice01AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd80e1a5c2619b941^bbb9505c2619b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m0000000000000000^3601"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.o [1m20131108/UIKitDynamicPractice01AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.o36"CC797C33-D81C-4576-8D96-FB1EA2C68996-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.099730
+e421078620.309407
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m264"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.o [1m20131108/UIKitDynamicPractice01FirstViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc6a2195c2619b941^253e4f5c2619b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m0000000000000000^3649"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.o [1m20131108/UIKitDynamicPractice01FirstViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.o36"F98EDC7A-CA7D-4576-AB97-CB9C3F0D73FD-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.100043
+e421078620.320101
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m266"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.o [1m20131108/UIKitDynamicPractice01SecondViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler7ac7195c2619b941^13f2515c2619b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m0000000000000000^3655"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.o [1m20131108/UIKitDynamicPractice01SecondViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.o36"325FBD4B-B5CD-4706-A7AE-CFE2616E947E-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.o /Users/coolthor01/PracticeProject/20131108/20131108/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.100365
+e421078620.308107
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/main.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/coolthor01/PracticeProject/20131108/20131108/main.m190"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.o [1m20131108/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler95d4195c2619b941^09e04e5c2619b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/coolthor01/PracticeProject/20131108/20131108/main.m0000000000000000^3427"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.o [1m20131108/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/main.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.o36"101FEAA8-A3DF-4A04-992F-AF1D387D9BA3-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.320423
+e421078620.458062
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m250"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.o [1m20131108/UIKitDynamicPractice01AppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb22e525c2619b941^28ee745c2619b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m0000000000000000^3608"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.o [1m20131108/UIKitDynamicPractice01AppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7s -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.o36"01554ACD-8E43-48FA-A52D-FEAA9AC9E281-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.308448
+e421078620.422744
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m266"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.o [1m20131108/UIKitDynamicPractice01FirstViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler3a5c4f5c2619b941^63ed6b5c2619b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m0000000000000000^3656"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.o [1m20131108/UIKitDynamicPractice01FirstViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7s -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01FirstViewController.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.o36"98F140ED-DF50-409A-8100-34803C2B6C9D-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.o /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.312051
+e421078620.422240
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m268"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.o [1m20131108/UIKitDynamicPractice01SecondViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd102505c2619b941^ec176c5c2619b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m0000000000000000^3662"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.o [1m20131108/UIKitDynamicPractice01SecondViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7s -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01SecondViewController.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.o36"136E4BAA-2F86-497C-B1F6-B285DFFA64A1-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileC build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.o /Users/coolthor01/PracticeProject/20131108/20131108/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078620.317675
+e421078620.400489
+r1
+xCompileC
+xbuild/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.o
+x/Users/coolthor01/PracticeProject/20131108/20131108/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/main.m
+d/Users/coolthor01/PracticeProject/20131108/20131108/UIKitDynamicPractice01AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/coolthor01/PracticeProject/20131108/20131108/main.m192"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.o [1m20131108/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler5b79515c2619b941^5d8b665c2619b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/coolthor01/PracticeProject/20131108/20131108/main.m0000000000000000^3434"[1mCompileC[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.o [1m20131108/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7s -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -include /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch -MMD -MT dependencies -MF /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.dia -c /Users/coolthor01/PracticeProject/20131108/20131108/main.m -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.o36"16C5835D-2A35-4AB9-9C37-2D3A8AB9C108-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCompileStoryboard /Users/coolthor01/PracticeProject/20131108/20131108/Base.lproj/Main.storyboard
+s421078620.743762
+e421078624.351010
+r1
+xCompileStoryboard
+x/Users/coolthor01/PracticeProject/20131108/20131108/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"[1mCompileStoryboard[0m [1m20131108/Base.lproj/Main.storyboard[0m69"[1mCompileStoryboard[0m [1m20131108/Base.lproj/Main.storyboard[0m0c77be5c2619b941^dbdb59602619b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/coolthor01/PracticeProject/20131108/20131108/Base.lproj/Main.storyboard0000000000000000^832"[1mCompileStoryboard[0m [1m20131108/Base.lproj/Main.storyboard[0m    cd /Users/coolthor01/PracticeProject/20131108    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Base.lproj/Main.storyboardc /Users/coolthor01/PracticeProject/20131108/20131108/Base.lproj/Main.storyboard36"168A3027-5B2E-4CDB-AC98-A754B5BA908B-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCopyStringsFile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/en.lproj/InfoPlist.strings 20131108/en.lproj/InfoPlist.strings
+s421078620.743550
+e421078620.745391
+r1
+xCopyStringsFile
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/en.lproj/InfoPlist.strings
+x20131108/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy 20131108/en.lproj/InfoPlist.strings122"[1mCopyStringsFile[0m build/Release-iphoneos/20131108.app/en.lproj/InfoPlist.strings 20131108/en.lproj/InfoPlist.stringscd75be5c2619b941^aad2be5c2619b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/coolthor01/PracticeProject/20131108/20131108/en.lproj/InfoPlist.strings0000000000000000^606"[1mCopyStringsFile[0m build/Release-iphoneos/20131108.app/en.lproj/InfoPlist.strings 20131108/en.lproj/InfoPlist.strings    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/en.lproj -- 20131108/en.lproj/InfoPlist.strings36"2205E4B7-7F0D-4A96-B685-1DAA4BE97831-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/20131108.app/ResourceRules.plist
+s421078618.232592
+e421078618.238879
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/20131108.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphoneos/20131108.app/ResourceRules.plist196"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/20131108.app/ResourceRules.plistd5943c5a2619b941^9e283d5a2619b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/ResourceRules.plist00344c97deffdf42^902"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/20131108.app/ResourceRules.plist    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app36"112259ED-3362-407B-8C77-43318494D098-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CCreateUniversalBinary /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108 normal armv7\ armv7s\ arm64
+s421078620.733481
+e421078620.742948
+r1
+xCreateUniversalBinary
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Create universal binary /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108110"[1mCreateUniversalBinary[0m [1mbuild/Release-iphoneos/20131108.app/20131108[0m normal armv7\ armv7s\ arm6411e1bb5c2619b941^5d32be5c2619b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/2013110800344c97deffdf42^956"[1mCreateUniversalBinary[0m [1mbuild/Release-iphoneos/20131108.app/20131108[0m normal armv7\ armv7s\ arm64    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108 /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108 /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108 -output /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/2013110836"AC0B53F4-552D-46A1-959A-80BDABA28BAA-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CGenerateDSYMFile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app.dSYM /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108
+s421078624.355443
+e421078624.401914
+r1
+xGenerateDSYMFile
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app.dSYM
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generate /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app.dSYM118"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/20131108.app.dSYM[0m build/Release-iphoneos/20131108.app/20131108bb0c5b602619b941^5ce466602619b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app.dSYM00344c97deffdf42^660"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/20131108.app.dSYM[0m build/Release-iphoneos/20131108.app/20131108    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/20131108 -o /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app.dSYM36"DD3E9D10-A534-4E91-9EB9-1C2306B457C1-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CLd /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108 normal arm64
+s421078620.565082
+e421078620.731019
+r1
+xLd
+x/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108
+xnormal
+xarm64
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108.LinkFileList
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01FirstViewController.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01SecondViewController.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/main.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/UIKitDynamicPractice01AppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework/Social
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Link /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108106"[1mLd[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108 normal arm643bc7905c2619b941^b724bb5c2619b941^---0#0#1#--1382"[1mLd[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108 normal arm64    cd /Users/coolthor01/PracticeProject/20131108    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -filelist /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework Social -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/20131108_dependency_info.dat -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/arm64/2013110836"0008DA9E-6432-4BCA-8B5C-D66279243242-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CLd /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108 normal armv7
+s421078620.563914
+e421078620.732046
+r1
+xLd
+x/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108
+xnormal
+xarmv7
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108.LinkFileList
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01FirstViewController.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01SecondViewController.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/main.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/UIKitDynamicPractice01AppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework/Social
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Link /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108106"[1mLd[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108 normal armv7c575905c2619b941^e467bb5c2619b941^---0#0#1#--1382"[1mLd[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108 normal armv7    cd /Users/coolthor01/PracticeProject/20131108    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -filelist /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework Social -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/20131108_dependency_info.dat -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7/2013110836"1DAE5D06-5140-43D2-B112-5AB0DB184D3E-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CLd /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108 normal armv7s
+s421078620.564498
+e421078620.730825
+r1
+xLd
+x/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108
+xnormal
+xarmv7s
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108.LinkFileList
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01FirstViewController.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01SecondViewController.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/main.o
+d/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/UIKitDynamicPractice01AppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework/Social
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108108"[1mLd[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108 normal armv7se199905c2619b941^5d1abb5c2619b941^---0#0#1#--1388"[1mLd[0m build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108 normal armv7s    cd /Users/coolthor01/PracticeProject/20131108    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos -filelist /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework Social -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/20131108_dependency_info.dat -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/Objects-normal/armv7s/2013110836"F588D37F-EF4E-406F-90C7-E5D1956A8DD0-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CProcessInfoPlistFile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Info.plist /Users/coolthor01/PracticeProject/20131108/20131108/20131108-Info.plist
+s421078624.351812
+e421078624.354977
+r1
+xProcessInfoPlistFile
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Info.plist
+x/Users/coolthor01/PracticeProject/20131108/20131108/20131108-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Process /Users/coolthor01/PracticeProject/20131108/20131108/20131108-Info.plist112"[1mProcessInfoPlistFile[0m build/Release-iphoneos/20131108.app/Info.plist [1m20131108/20131108-Info.plist[0m28275a602619b941^6ee05a602619b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/coolthor01/PracticeProject/20131108/20131108/20131108-Info.plist0000000000000000^998"[1mProcessInfoPlistFile[0m build/Release-iphoneos/20131108.app/Info.plist [1m20131108/20131108-Info.plist[0m    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-infoPlistUtility /Users/coolthor01/PracticeProject/20131108/20131108/20131108-Info.plist -genpkginfo /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/ResourceRules.plist -additionalcontentfile /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/assetcatalog_generated_info.plist -o /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/Info.plist36"97899228-1C64-4E89-AEFB-0DDFD1B4CBCD-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CProcessPCH /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078618.243313
+e421078620.096857
+r1
+xProcessPCH
+x/var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.pch
+x20131108/20131108-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile 20131108/20131108-Prefix.pch303"[1mProcessPCH[0m /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler677d3e5a2619b941^a6d5185c2619b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch0000000000000000^3553"[1mProcessPCH[0m /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/arm64 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos --serialize-diagnostics /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.d -c /Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch -o /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-delpptwfqlfdksapnxxxldvarxiy/20131108-Prefix.pch.pch36"F75CF755-793F-4D42-96B9-160B4EE8203E-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CProcessPCH /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078618.242609
+e421078620.096376
+r1
+xProcessPCH
+x/var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.pch
+x20131108/20131108-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile 20131108/20131108-Prefix.pch304"[1mProcessPCH[0m /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd3683e5a2619b941^3acb185c2619b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch0000000000000000^3556"[1mProcessPCH[0m /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7s -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos --serialize-diagnostics /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.d -c /Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch -o /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-ehrhshdmoxjdjbalqjkcfabnaqjx/20131108-Prefix.pch.pch36"83242DC1-6B5F-43D8-B020-9553F383E069-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CProcessPCH /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421078618.242150
+e421078620.098896
+r1
+xProcessPCH
+x/var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.pch
+x20131108/20131108-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile 20131108/20131108-Prefix.pch303"[1mProcessPCH[0m /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerfd663e5a2619b941^6151195c2619b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch0000000000000000^3553"[1mProcessPCH[0m /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.pch 20131108/20131108-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/coolthor01/PracticeProject/20131108    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-generated-files.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-own-target-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-all-target-headers.hmap -iquote /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108-project-headers.hmap -I/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources/armv7 -I/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/DerivedSources -F/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos --serialize-diagnostics /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.d -c /Users/coolthor01/PracticeProject/20131108/20131108/20131108-Prefix.pch -o /var/folders/2g/7k15dwj13wj0wh1kwjp1mb0w0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/20131108-Prefix-fxcjkaijkpunyvbbhmleencsbffp/20131108-Prefix.pch.pch36"A9BDA0B6-D499-4837-B9EC-F9B7FB743F7D-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108.xcent
+s421078624.406116
+e421078624.409160
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection228"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/20131108.build/Release-iphoneos/20131108.build/20131108.xcent[0m228"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/20131108.build/Release-iphoneos/20131108.build/20131108.xcent[0m9d0e68602619b941^22c168602619b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108.xcent00344c97deffdf42^792"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/20131108.build/Release-iphoneos/20131108.build/20131108.xcent[0m    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/coolthor01/PracticeProject/20131108/build/20131108.build/Release-iphoneos/20131108.build/20131108.xcent36"4AAB934B-DC65-416E-B61B-6C7E723206B6-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CProcessProductPackaging /Users/coolthor01/Library/MobileDevice/Provisioning\ Profiles/D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC.mobileprovision /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/embedded.mobileprovision
+s421078624.402428
+e421078624.405091
+r1
+xProcessProductPackaging
+x/Users/coolthor01/Library/MobileDevice/Provisioning Profiles/D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC.mobileprovision
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection215"[1mProcessProductPackaging[0m /Users/coolthor01/Library/MobileDevice/Provisioning\ Profiles/D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC.mobileprovision [1mbuild/Release-iphoneos/20131108.app/embedded.mobileprovision[0m215"[1mProcessProductPackaging[0m /Users/coolthor01/Library/MobileDevice/Provisioning\ Profiles/D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC.mobileprovision [1mbuild/Release-iphoneos/20131108.app/embedded.mobileprovision[0mb91c67602619b941^03b667602619b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/embedded.mobileprovision00344c97deffdf42^740"[1mProcessProductPackaging[0m /Users/coolthor01/Library/MobileDevice/Provisioning\ Profiles/D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC.mobileprovision [1mbuild/Release-iphoneos/20131108.app/embedded.mobileprovision[0m    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Users/coolthor01/Library/MobileDevice/Provisioning\ Profiles/D96BFDC5-DC72-4D19-B8F1-D65BD0572BCC.mobileprovision -o /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/embedded.mobileprovision36"FED32679-A5F8-4699-B507-22235E67AC6C-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
+CTouch /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+r0
+
+CValidate /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+s421078624.744589
+e421078624.812895
+r1
+xValidate
+x/Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"[1mValidate[0m [1mbuild/Release-iphoneos/20131108.app[0m60"[1mValidate[0m [1mbuild/Release-iphoneos/20131108.app[0maebabe602619b941^261ed0602619b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app/0000000000000000^569"[1mValidate[0m [1mbuild/Release-iphoneos/20131108.app[0m    cd /Users/coolthor01/PracticeProject/20131108    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    export PRODUCT_TYPE=com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/coolthor01/PracticeProject/20131108/build/Release-iphoneos/20131108.app36"649ACBC9-96D4-448F-8E8C-A6AC87AA1BBD-
+b819E4DFC-8490-4005-93B2-B856305136FD
+
